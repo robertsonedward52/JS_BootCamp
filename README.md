@@ -1,1 +1,1 @@
-Cash Course Web Dev
+Complete Web Development for absolute beginners.
