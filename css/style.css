@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #dede;
+    padding: 12px 50px;
+    margin: 50px 20px;
+}
