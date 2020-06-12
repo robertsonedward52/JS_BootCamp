@@ -1,2 +1,6 @@
 #first project with github repository
 *.js
+script.js
+
+# commit the script2.js
+script2.js
