@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Hello am learning git branch and merging
-=======
-Am still learning branching.
->>>>>>> project1

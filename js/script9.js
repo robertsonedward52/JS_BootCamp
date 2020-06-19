@@ -99,3 +99,36 @@ new Promise((resolve, reject) => {
 .then(() => {
     console.log("Do this no matter what happen before");
 })
+
+
+
+
+
+
+
+// after a catch It's possible to chain after a failure,
+//  i.e. a catch, which is useful to accomplish new actions even after
+//   an action failed in the chain. Read the following example
+
+new Promise((reject, resolve) => {
+    console.log("intial");
+ 
+    resolve();
+ 
+ })
+ .then(() => {
+     throw new error("Something went wrong!");
+ 
+     console.log("Do this!");
+ })
+ 
+ .catch(() => {
+     console.error("Do that!");
+ })
+ 
+ .then(() => {
+ console.log("Do that, no matter what happened!");
+ 
+ })
+ 
+ 
